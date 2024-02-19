@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/*Style for Nav Bar */
+
+.navbar{
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    background: turquoise;
+    position: fixed;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a:hover{
+    color: red;
+}
+
+.navbar .logo a span{
+    color: white;
+}
+
+.navbar .logo a span:hover{
+    color: blue;
+}
+
+
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px; 
+    transition: all 0.3s linear; 
+}
+
+.navbar .menu li a:hover{
+    color: blue;
+}
+
+/*Style for Hero Page*/
+
+.home{
+    display: flex;
+    background: url(Images/banner.jpg) no-repeat center;
+    height:100vh;
+    width: 100%;
+    color: red;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 30px;
+}
+
+.home .hero-content .text-1{
+   font-size: 25px;
+}
+
+.home .hero-content .text-2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+ .home .hero-content .text-3{
+    font-size: 30px;
+}
+
+.home .hero-content a{
+    padding: 12px 36px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+
+ .hero-content a:hover{
+    background: turquoise;
+    color: white;
+}
+
+ /*Style for About Section */
+section{
+    padding: 100px 0;
+}
+
+.about{
+  font-family: "Montserrat", sans-serif; 
+}
+
+.about .title{
+ text-align: center;
+ font-size: 30px;
+ padding-bottom: 50px;
+}
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.about .about-content .column-left{
+    width: 45%;
+   
+}
+
+.about .about-content .column-left img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.about .about-content .column-right{
+    width: 55%;
+   
+}
+
+.column-right .text{
+    margin-bottom: 10px;
+}
+
+.column-right p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Style for Services Section*/
+.services{
+    color: black;
+    background: tomato;
+}
+
+.services .title{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services .services-content{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+
+.services .services-content .card{
+    width: calc(33% - 20px);
+    background: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+
+}
+
+.services .services-content .card:hover{
+    background: turquoise;
+}
+
+
+.services .services-content .card .box{
+    transition: all 0.3s ease;
+}
+
+.services .services-content .card .box:hover{
+    transform: scale(1.05);
+}
+
+.services .services-content .card img{
+    height: 60px;
+    width: 60px;
+}
+
+.services .services-content .text{
+    font-family: "Montserrat", sans-serif; 
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+
+.services .services-content p {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 18px;
+}
+
+ /*Style for Skills Section */
+
+
+ .skills{
+    font-family: ;
+ }
+
+ .skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+
+ .skills .skills-content .column-left{
+width: 55%;
+ }
+
+ .skills .skills-content .column-right{
+    width: 45%;
+ }
+
+
