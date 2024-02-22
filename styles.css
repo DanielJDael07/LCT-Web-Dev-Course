@@ -177,7 +177,7 @@ section{
     color: white;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .services .services-content{
@@ -231,7 +231,15 @@ justify-content: space-between;
 
 
  .skills{
-    font-family: ;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+ }
+
+ .skills .title{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
  }
 
  .skills .skills-content{
@@ -243,11 +251,135 @@ justify-content: space-between;
 
 
  .skills .skills-content .column-left{
-width: 55%;
+width: calc(55% - 30px);
+/* width: 55%; */
  }
 
- .skills .skills-content .column-right{
+ .skills .skills-content .column-left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+
+ .skills .skills-content .column-left p{
+    text-align: justify;
+    font-size: 18px;
+ }
+
+ .skills .skills-content a{
+    padding: 12px 36px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.skills .skills-content a:hover{
+    background: turquoise;
+    color: white;
+}
+
+.skills .skills-content .column-right{
     width: 45%;
  }
+
+ .skills .skills-content .column-right .bar{
+margin-bottom: 15px;
+ }
+
+ .skills .skills-content .column-right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .skills .skills-content .column-right span{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+ }
+
+
+ .skills .skills-content .column-right .line {
+   height: 5px;
+   width: 100%;
+   background: lightgray;
+   position: relative;
+   z-index: -1;
+ }
+
+ .skills .skills-content .column-right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background: red;
+ 
+ }
+
+ .skills-content .column-right .html::before{
+    width: 95%;
+ }
+
+ .skills-content .column-right .css::before{
+    width: 95%;
+ }
+
+ .skills-content .column-right .javascript::before{
+    width: 95%;
+ }
+
+ /* Styles for Contact Section*/
+ .contact{
+    font-family: "Montserrat", sans-serif;
+ }
+
+ .contact .title{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+ }
+
+ .contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .contact .contact-content .column-left{
+    width: calc(50% - 30px);
+ }
+
+ .contact .contact-content .column-left{
+    font-size: 25px;
+ 
+    margin: 10px 0;
+ }
+
+ .contact .contact-content .column-left p{
+    font-size: 18px;
+    text-align: justify;
+
+ }
+  
+ .icons img{
+    height: 20px;
+    width: 20px;
+ }
+
+
+
+ 
+
+
+
+
 
 
