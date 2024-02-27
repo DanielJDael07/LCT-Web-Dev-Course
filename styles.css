@@ -322,15 +322,15 @@ margin-bottom: 15px;
  
  }
 
- .skills-content .column-right .html::before{
+ .skills-content .column right .html::before{
     width: 95%;
  }
 
- .skills-content .column-right .css::before{
+ .skills-content .column right .css::before{
     width: 95%;
  }
 
- .skills-content .column-right .javascript::before{
+ .skills-content .column right .javascript::before{
     width: 95%;
  }
 
@@ -357,9 +357,9 @@ margin-bottom: 15px;
     width: calc(50% - 30px);
  }
 
- .contact .contact-content .column-left{
+ .contact .contact-content .column-left .text{
     font-size: 25px;
- 
+    font-weight: 600;
     margin: 10px 0;
  }
 
@@ -368,12 +368,84 @@ margin-bottom: 15px;
     text-align: justify;
 
  }
+
+ .contact-content .row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+ }
+
+ .contact .contact-content .row .info{
+    margin-left: 30px;
+ } 
+
   
  .icons img{
     height: 20px;
     width: 20px;
  }
 
+ .contact .contact-content .info .head{
+    color: red;
+    font-weight: 600;
+   margin: 5px 0;
+ }
+
+ .contact-content .text{
+    color: red;
+    font-weight: 600;
+    font-size: 25px;
+ }
+
+ .contact .contact-content .info .sub-title{
+    font-weight: 600;
+
+ }
+
+ .contact .column-right .fields{
+    display: flex;
+}
+
+ .contact .column-right .fields,
+ .contact .column-right .field, .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+ }
+
+
+ .field-textarea{
+    height: 100px;
+    width: 100%;
+ }
+
+ .contact .column-right .field-name{
+    margin-right: 10px;
+ }
+
+ .contact .column-right .field-email{
+    margin-left: 10px;
+ }
+
+ .contact .column-right form input,
+ input,
+ .contact .column-right form .field-textarea textarea{
+    height: 100%;
+    width: 100%;
+    border:1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+ }
+
+ 
+
+
+
+
+ 
+
+ 
 
 
  
