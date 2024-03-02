@@ -438,6 +438,55 @@ margin-bottom: 15px;
     padding: 0 15px;
  }
 
+ .contact .column-right form input:focus,
+ .contact .column-right .field-textarea textarea:focus{
+    border-color: red;
+ }
+
+ .contact .column-right form .field-textarea textarea{
+    padding-top: 10px;
+    resize: none;
+ }
+
+ .contact .column-right form .button {
+    height: 50px;
+    width: 170px;
+ }
+
+ .contact .column-right form .button button{
+    height:100%;
+    width: 100%;
+    background: red;
+    border: 2px solid red;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+ }
+
+ .contact .column-right form .button button:hover{
+    color: white;
+    background: turquoise;
+    border: 2px solid white;
+ }
+
+ /* Footer Styling */
+footer {
+   font-family: "Montserrat", sans-serif;
+   color: white;
+   text-align: center;
+   background: black;
+   padding: 10px 25px;
+}
+
+footer span a{
+   text-decoration: none;
+   color: red;
+}
+
+
  
 
 
